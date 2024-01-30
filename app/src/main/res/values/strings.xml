@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Dormitory_Placement_System</string>
+    <string name="signuphere" />
+    <string name="password" />
+    <string name="username" />
+    <string name="login_page" />
+    <string name="view_your_data">View your data</string>
+    <string name="well_come">Well come</string>
+    <string name="view_student_data">VIEW STUDENT DATA</string>
+    <string name="back">Back</string>
+    <string name="view_data">VIEW DATA</string>
+    <string name="register_procter">register procter</string>
+    <string name="well_come_n_to_n_registration_system">WELL-COME \n TO \n REGISTRATION SYSTEM</string>
+    <string name="register_student">register student</string>
+    <string name="edit_student">Edit student</string>
+    <string name="edit_procter">Edit procter</string>
+    <string name="delete_student">Delete student</string>
+    <string name="delete_procter">Delete procter</string>
+</resources>

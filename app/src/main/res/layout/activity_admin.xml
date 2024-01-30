@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin">
+
+
+    <Button
+        android:id="@+id/viewdataall"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/view_data"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editstudent"
+        app:layout_constraintVertical_bias="0.45" />
+
+    <Button
+        android:id="@+id/regproBTN"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="70dp"
+        android:text="@string/register_procter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.821"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.345" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/well_come_n_to_n_registration_system"
+        android:textColor="#43A047"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/regstdBTN"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65"
+        tools:targetApi="jelly_bean" />
+
+    <Button
+        android:id="@+id/regstdBTN"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="70dp"
+        android:text="@string/register_student"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.345" />
+
+    <Button
+        android:id="@+id/editstudent"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/edit_student"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/regstdBTN"
+        app:layout_constraintVertical_bias="0.01" />
+
+    <Button
+        android:id="@+id/editprocter"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/edit_procter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.821"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/regstdBTN"
+        app:layout_constraintVertical_bias="0.01" />
+
+    <Button
+        android:id="@+id/deletestd"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/delete_student"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editstudent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/dltprocter"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/delete_procter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.821"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editstudent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/backspace"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.821"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editstudent"
+        app:layout_constraintVertical_bias="0.45" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

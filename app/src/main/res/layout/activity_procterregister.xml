@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".procterregister">
+
+    <EditText
+        android:id="@+id/fnm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="Enter first name"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/mnm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fnm"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Enter middle name"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/lnm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mnm"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Enter last name"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/sX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lnm"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Enter gender"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/iD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sX"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Enter id number"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/unm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iD"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Enter user name"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/PAS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/unm"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Enter password"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/blck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/PAS"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Enter block"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/rom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/blck"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Enter room"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="" />
+
+    <Button
+        android:id="@+id/SubBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rom"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="15dp"
+        android:text="SUBMIT" />
+
+
+</RelativeLayout>
